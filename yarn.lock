@@ -220,6 +220,7 @@ __metadata:
     husky: ^8.0.1
     lint-staged: ^13.0.3
     prettier: ^2.7.1
+    semantic-release: ^19.0.5
     vite: ^3.1.2
   peerDependencies:
     semantic-release: ^19
@@ -6109,7 +6110,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^19.0.3":
+"semantic-release@npm:^19.0.3, semantic-release@npm:^19.0.5":
   version: 19.0.5
   resolution: "semantic-release@npm:19.0.5"
   dependencies:
