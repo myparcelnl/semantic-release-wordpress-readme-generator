@@ -36,3 +36,41 @@ module.exports = {
   ],
 };
 ```
+
+### Options
+
+By default, this is the configuration that will be used. This defines which commits will be included in the readme, and the order in which the entries will be written.
+
+| Type     | Prefix                      |
+|----------|-----------------------------|
+| `feat`   | `New: `                     |
+| `fix`    | `Fixed bug: `               |
+| `perf`   | `Performance improvement: ` |
+| `revert` | `Reverted: `                |
+
+To customize this, pass an object to the plugin and override the `types` property:
+
+```js
+const wordpressReadme = require('@myparcel/semantic-release-wordpress-readme-generator');
+
+module.exports = {
+  plugins: [
+    // ...
+    [
+      '@myparcel/semantic-release-wordpress-readme-generator',
+      {
+        types: [
+          {
+            type: 'feat',
+            prefix: 'Feature: ',
+          },
+          {
+            type: 'fix',
+            prefix: 'Fix: ',
+          },
+        ]
+      }
+    ],
+  ],
+};
+```
