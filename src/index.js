@@ -67,7 +67,11 @@ const wordpressReadmePlugin = {
     const contentsAsString = fs
       .readFileSync(readmePath)
       .toString('utf-8')
-      .replace(`== Changelog ==`, `== Changelog ==\n\n${text}`);
+      .replace(`== Changelog ==`, `== Changelog ==\n\n${text}`)
+      .replace(
+        /Stable tag: [^]+\nRequires/g,
+        `Stable tag: ${nextRelease.version}\nRequires`,
+      );
 
     fs.writeFileSync(readmePath, contentsAsString);
     logger.log(`Updated changelog in readme.txt`);
