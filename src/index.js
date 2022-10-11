@@ -69,7 +69,7 @@ const wordpressReadmePlugin = {
       .toString('utf-8')
       .replace(`== Changelog ==`, `== Changelog ==\n\n${text}`)
       .replace(
-        /Stable tag: [^]+\nRequires/g,
+        /Stable tag: .+\nRequires/g,
         `Stable tag: ${nextRelease.version}\nRequires`,
       );
 
