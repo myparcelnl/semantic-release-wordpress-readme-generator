@@ -1,6 +1,6 @@
 {
   "name": "@myparcel/semantic-release-wordpress-readme-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a readme.txt for use with WordPress plugin releases in semantic-release",
   "repository": {
     "type": "git",

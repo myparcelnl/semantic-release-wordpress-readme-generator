@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.0.0...v1.0.1) (2022-10-11)
+
+
+### :bug: Bug Fixes
+
+* remove husky ([#2](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/issues/2)) ([044e838](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/commit/044e8385ea7635f4164ec4a147a161bd9c68564d))
+
 ## 1.0.0 (2022-09-19)
 
 
