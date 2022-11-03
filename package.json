@@ -14,7 +14,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "postinstall": "husky install"
   },
   "lint-staged": {
     "package.json": "npx sort-package-json",
