@@ -1,7 +1,5 @@
 const fs = require('fs');
-const debug = require('debug')(
-  'semantic-release:@myparcel/semantic-release-wordpress-readme-generator',
-);
+const debug = require('debug')('semantic-release:@myparcel/semantic-release-wordpress-readme-generator');
 
 const DEFAULT_TYPES = [
   {
@@ -37,7 +35,7 @@ const wordpressReadmePlugin = {
     const plainTypes = types.map((item) => item.type);
     const readmeLines = commits
       .reduce((acc, rawCommit) => {
-        debug('Parsing ' + rawCommit.subject);
+        debug(`Parsing ${rawCommit.subject}`);
         const typeWithScope = rawCommit.subject.split(':')[0];
         const type = typeWithScope?.replace(/!|\(.+\)/, '').trim();
 
@@ -46,7 +44,7 @@ const wordpressReadmePlugin = {
           return acc;
         }
 
-        const prefix = types.find((item) => item.type === type).prefix;
+        const {prefix} = types.find((item) => item.type === type);
         const message = rawCommit.subject.split(':')[1]?.trim();
 
         acc.push({
@@ -60,21 +58,16 @@ const wordpressReadmePlugin = {
       }, [])
       .sort((a, b) => plainTypes.indexOf(a.type) - plainTypes.indexOf(b.type));
 
-    const text =
-      `= ${nextRelease.version} (${isoDate}) =\n\n` +
-      readmeLines.map((commit) => commit.message).join('\n');
+    const text = `= ${nextRelease.version} (${isoDate}) =\n\n${readmeLines.map((commit) => commit.message).join('\n')}`;
 
     const contentsAsString = fs
       .readFileSync(readmePath)
       .toString('utf-8')
-      .replace(`== Changelog ==`, `== Changelog ==\n\n${text}`)
-      .replace(
-        /Stable tag: .+\nRequires/g,
-        `Stable tag: ${nextRelease.version}\nRequires`,
-      );
+      .replace('== Changelog ==', `== Changelog ==\n\n${text}`)
+      .replace(/Stable tag: .+\nRequires/g, `Stable tag: ${nextRelease.version}\nRequires`);
 
     fs.writeFileSync(readmePath, contentsAsString);
-    logger.log(`Updated changelog in readme.txt`);
+    logger.log('Updated changelog in readme.txt');
   },
 };
 
