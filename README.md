@@ -7,19 +7,19 @@ Generates a readme.txt for WordPress plugin releases.
 ### With Yarn
 
 ```shell
-yarn add -D @myparcel/semantic-release-wordpress-readme-generator
+yarn add -D @myparcel-dev/semantic-release-wordpress-readme-generator
 ```
 
 ### With PNPM
 
 ```shell
-pnpm add -D @myparcel/semantic-release-wordpress-readme-generator
+pnpm add -D @myparcel-dev/semantic-release-wordpress-readme-generator
 ```
 
 ### With NPM
 
 ```shell
-npm install --save-dev @myparcel/semantic-release-wordpress-readme-generator
+npm install --save-dev @myparcel-dev/semantic-release-wordpress-readme-generator
 ```
 
 ## Usage
@@ -27,12 +27,12 @@ npm install --save-dev @myparcel/semantic-release-wordpress-readme-generator
 Add the following to your `release.config.js`, below the `@semantic-release/changelog` plugin:
 
 ```js
-const wordpressReadme = require('@myparcel/semantic-release-wordpress-readme-generator');
+const wordpressReadme = require('@myparcel-dev/semantic-release-wordpress-readme-generator');
 
 module.exports = {
   plugins: [
     // ...
-    '@myparcel/semantic-release-wordpress-readme-generator',
+    '@myparcel-dev/semantic-release-wordpress-readme-generator',
   ],
 };
 ```
@@ -51,13 +51,13 @@ By default, this is the configuration that will be used. This defines which comm
 To customize this, pass an object to the plugin and override the `types` property:
 
 ```js
-const wordpressReadme = require('@myparcel/semantic-release-wordpress-readme-generator');
+const wordpressReadme = require('@myparcel-dev/semantic-release-wordpress-readme-generator');
 
 module.exports = {
   plugins: [
     // ...
     [
-      '@myparcel/semantic-release-wordpress-readme-generator',
+      '@myparcel-dev/semantic-release-wordpress-readme-generator',
       {
         types: [
           {
