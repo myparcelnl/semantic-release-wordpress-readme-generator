@@ -29,10 +29,10 @@
     "debug": "^4.0.0"
   },
   "devDependencies": {
+    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "@myparcel-eslint/eslint-config-esnext": "^1.2.0",
     "@myparcel-eslint/eslint-config-node": "^1.2.0",
     "@myparcel-eslint/eslint-config-prettier": "^1.2.0",
-    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "eslint": "^8.38.0",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
