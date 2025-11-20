@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.2.0...v1.3.0) (2025-11-20)
+
+
+### :sparkles: New Features
+
+* migrate to [@myparcel-dev](https://github.com/myparcel-dev) scope ([#11](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/issues/11)) ([68d8236](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/commit/68d8236b0ebb8fc39beee842b77e0851429d4782))
+
 ## [1.2.0](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.1.0...v1.2.0) (2023-04-12)
 
 
