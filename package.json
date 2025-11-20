@@ -1,6 +1,6 @@
 {
-  "name": "@myparcel/semantic-release-wordpress-readme-generator",
-  "version": "1.2.0",
+  "name": "@myparcel-dev/semantic-release-wordpress-readme-generator",
+  "version": "2.0.0",
   "description": "Generates a readme.txt for use with WordPress plugin releases in semantic-release",
   "repository": {
     "type": "git",
@@ -21,18 +21,18 @@
     "package.json": "npx sort-package-json",
     "*.js": "npx eslint --fix"
   },
-  "prettier": "@myparcel/prettier-config",
+  "prettier": "@myparcel-dev/prettier-config",
   "release": {
-    "extends": "@myparcel/semantic-release-config/github-npm"
+    "extends": "@myparcel-dev/semantic-release-config/github-npm"
   },
   "dependencies": {
     "debug": "^4.0.0"
   },
   "devDependencies": {
+    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "@myparcel-eslint/eslint-config-esnext": "^1.2.0",
     "@myparcel-eslint/eslint-config-node": "^1.2.0",
     "@myparcel-eslint/eslint-config-prettier": "^1.2.0",
-    "@myparcel/semantic-release-config": "^5.0.0",
     "eslint": "^8.38.0",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
