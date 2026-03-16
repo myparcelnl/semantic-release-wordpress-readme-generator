@@ -44,7 +44,10 @@
   "peerDependencies": {
     "semantic-release": "^19 || ^20 || ^21"
   },
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@4.12.0",
+  "resolutions": {
+    "tar": "7.5.11"
+  },
   "publishConfig": {
     "access": "public"
   }
