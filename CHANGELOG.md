@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.2](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.3.1...v1.3.2) (2026-08-14)
+
+
+### :bug: Bug Fixes
+
+* **security:** fix tar vulnerability ([#13](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/issues/13)) ([8fbf7a7](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/commit/8fbf7a72c5bb31ee210ec006b08eb54e4a160bca))
+
 ## [1.3.1](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.3.0...v1.3.1) (2026-02-19)
 
 
