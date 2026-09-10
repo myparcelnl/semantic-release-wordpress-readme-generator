@@ -301,6 +301,69 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@myparcel-dev/eslint-config-es6@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@myparcel-dev/eslint-config-es6@npm:1.4.0"
+  dependencies:
+    "@myparcel-dev/eslint-config": ^1.4.0
+  peerDependencies:
+    eslint: 7 - 8
+  checksum: 9e808b2f6f0322ec2b2d1a6872f74f9de08f649b2ed9c9c739728be1502277f426972886e18faad23a1cb9355f3bffd10e4c02d9f63e8e1dcf5dab4f1e07fa4b
+  languageName: node
+  linkType: hard
+
+"@myparcel-dev/eslint-config-esnext@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@myparcel-dev/eslint-config-esnext@npm:1.4.0"
+  dependencies:
+    "@myparcel-dev/eslint-config-es6": ^1.4.0
+  peerDependencies:
+    eslint: 7 - 8
+  checksum: 32d5f16155f04429f7821779a311e729ff59ff8d2d4bd86d83531cd3e9894bfb093ebe4491a913d46f55d7e13e2948589a9adceb55296f0959e6fb5a1279002f
+  languageName: node
+  linkType: hard
+
+"@myparcel-dev/eslint-config-node@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@myparcel-dev/eslint-config-node@npm:1.4.0"
+  dependencies:
+    "@myparcel-dev/eslint-config": ^1.4.0
+  peerDependencies:
+    eslint: 7 - 8
+  checksum: 74e7aeee03db27ed4eb26bbfb838cbdabb5da76733d93707535c0680e8738c0661bd2e0f96a98f7ce5a6888ec15a05ff6cc50d43c6dd64aac1c09030141cc1bc
+  languageName: node
+  linkType: hard
+
+"@myparcel-dev/eslint-config-prettier@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@myparcel-dev/eslint-config-prettier@npm:1.4.0"
+  dependencies:
+    "@myparcel/prettier-config": ">= 1"
+    eslint-config-prettier: 1 - 8
+    eslint-plugin-prettier: 1 - 4
+  peerDependencies:
+    eslint: 7 - 8
+    prettier: ">= 2"
+  checksum: a38875b26a5665662867bcfbafced3c97d4862735f6201e1b212c772f3483d096f17cc663044d3838187544370c5070670bcc7aef1527bbcc40c515b94d82fe4
+  languageName: node
+  linkType: hard
+
+"@myparcel-dev/eslint-config@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@myparcel-dev/eslint-config@npm:1.4.0"
+  peerDependencies:
+    eslint: 7 - 8
+  checksum: 99a236e7ccf9f27dd27405fa737771d64373e72b2536fb52c55841a3972e52487b53fd1bd9045d629065f1502a303c690eb8f98080a7650dc86f79588727bbd8
+  languageName: node
+  linkType: hard
+
+"@myparcel-dev/prettier-config@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@myparcel-dev/prettier-config@npm:2.0.1"
+  checksum: 91a7070fe688e34f1b6b61140e51221b0d2428f9caa417925a7d261ffa4a3f332bc8fa8323017677c5175e5cc2519a821160be01562d1b95b52e0d1476b9b450
+  languageName: node
+  linkType: hard
+
 "@myparcel-dev/semantic-release-config@npm:^6.0.0":
   version: 6.0.3
   resolution: "@myparcel-dev/semantic-release-config@npm:6.0.3"
@@ -323,10 +386,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@myparcel-dev/semantic-release-wordpress-readme-generator@workspace:."
   dependencies:
+    "@myparcel-dev/eslint-config-esnext": ^1.4.0
+    "@myparcel-dev/eslint-config-node": ^1.4.0
+    "@myparcel-dev/eslint-config-prettier": ^1.4.0
+    "@myparcel-dev/prettier-config": ^2.0.1
     "@myparcel-dev/semantic-release-config": ^6.0.0
-    "@myparcel-eslint/eslint-config-esnext": ^1.2.0
-    "@myparcel-eslint/eslint-config-node": ^1.2.0
-    "@myparcel-eslint/eslint-config-prettier": ^1.2.0
     debug: ^4.0.0
     eslint: ^8.38.0
     husky: ^8.0.1
@@ -340,63 +404,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@myparcel-eslint/eslint-config-es6@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@myparcel-eslint/eslint-config-es6@npm:1.2.3"
-  dependencies:
-    "@myparcel-eslint/eslint-config": ^1.2.3
-  peerDependencies:
-    eslint: "*"
-  checksum: ee3bc4ec8fd742bb362baddffcbb15d064f806ee229eea51afabb36cb05a7ce68d0c8a2f1f77c248d1f4edf6bcfc8c7626b02d0ec07bdc2f06e59d5d3ed4c7e6
-  languageName: node
-  linkType: hard
-
-"@myparcel-eslint/eslint-config-esnext@npm:^1.2.0":
-  version: 1.2.3
-  resolution: "@myparcel-eslint/eslint-config-esnext@npm:1.2.3"
-  dependencies:
-    "@myparcel-eslint/eslint-config-es6": ^1.2.3
-  peerDependencies:
-    eslint: "*"
-  checksum: 7c2e22c3673ebc49e4975363bc40bae549127ffb3f2e19876b8b2701d0b749cbd029cb0e3ee2b0ef833b54b7655cd291ba3bb4ac8153caba538a40c29ccd4647
-  languageName: node
-  linkType: hard
-
-"@myparcel-eslint/eslint-config-node@npm:^1.2.0":
-  version: 1.2.3
-  resolution: "@myparcel-eslint/eslint-config-node@npm:1.2.3"
-  dependencies:
-    "@myparcel-eslint/eslint-config": ^1.2.3
-  peerDependencies:
-    eslint: "*"
-  checksum: f95ca60cb09034ff66f541781ced8acd53c8a6965816791d0c9fcc751706ac3f4e9714c877709a0f37a27229bbe0e01111506c7937cb9d32ada98a669909d6a3
-  languageName: node
-  linkType: hard
-
-"@myparcel-eslint/eslint-config-prettier@npm:^1.2.0":
-  version: 1.2.3
-  resolution: "@myparcel-eslint/eslint-config-prettier@npm:1.2.3"
-  dependencies:
-    "@myparcel/prettier-config": "*"
-    eslint-config-prettier: "*"
-    eslint-plugin-prettier: "*"
-  peerDependencies:
-    eslint: "*"
-    prettier: "*"
-  checksum: 0402ac6ad6bcc09725eab3b21e8970be3dbdb658c680e02a241e606d938f663c71dd1f68943afc42f7126b1eff28f9edccb61fb4b316b1cac58d6fcc0c2b482d
-  languageName: node
-  linkType: hard
-
-"@myparcel-eslint/eslint-config@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@myparcel-eslint/eslint-config@npm:1.2.3"
-  peerDependencies:
-    eslint: "*"
-  checksum: c1f191c0265f5de542f92496bf04322f32f9513f57fe53192132523383c2d7596c9907fcd5c0c53f4a695e9dde6376c6403fc024614846585d596741bf0e9ec4
-  languageName: node
-  linkType: hard
-
-"@myparcel/prettier-config@npm:*":
+"@myparcel/prettier-config@npm:>= 1":
   version: 1.1.0
   resolution: "@myparcel/prettier-config@npm:1.1.0"
   checksum: c10890fdd77cd630500b65301dd43fe32ea82a383fdf51d64300744325210e9c4e4b80b6f274c761f7beabb21e128f54ea52955132de8fbe5c5d92aaa3baa3c1
@@ -2119,20 +2127,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:*":
-  version: 8.8.0
-  resolution: "eslint-config-prettier@npm:8.8.0"
+"eslint-config-prettier@npm:1 - 8":
+  version: 8.10.2
+  resolution: "eslint-config-prettier@npm:8.10.2"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 1e94c3882c4d5e41e1dcfa2c368dbccbfe3134f6ac7d40101644d3bfbe3eb2f2ffac757f3145910b5eacf20c0e85e02b91293d3126d770cbf3dc390b3564681c
+  checksum: a92b7e8a996e65adf79de1579524235687e9d3552d088cfab4f170da60d23762addb4276169c8ca3a9551329dda8408c59f7e414101b238a6385379ac1bc3b16
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:*":
-  version: 4.2.1
-  resolution: "eslint-plugin-prettier@npm:4.2.1"
+"eslint-plugin-prettier@npm:1 - 4":
+  version: 4.2.5
+  resolution: "eslint-plugin-prettier@npm:4.2.5"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -2141,7 +2149,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: b9e839d2334ad8ec7a5589c5cb0f219bded260839a857d7a486997f9870e95106aa59b8756ff3f37202085ebab658de382b0267cae44c3a7f0eb0bcc03a4f6d6
+  checksum: 22c29ba685f18516e3b1595e062849ccc108996a759da6067ff5d876519a5f81c8ba92c0c5623a1c62b593d417619ba44ab3b6ec1450ca753c078fd92970b883
   languageName: node
   linkType: hard
 

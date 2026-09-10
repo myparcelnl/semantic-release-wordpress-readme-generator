@@ -1,8 +1,8 @@
 {
   "extends": [
-    "@myparcel-eslint/eslint-config-prettier",
-    "@myparcel-eslint/eslint-config-esnext",
-    "@myparcel-eslint/eslint-config-node"
+    "@myparcel-dev/eslint-config-prettier",
+    "@myparcel-dev/eslint-config-esnext",
+    "@myparcel-dev/eslint-config-node"
   ],
   "parserOptions": {
     "requireConfigFile": false
