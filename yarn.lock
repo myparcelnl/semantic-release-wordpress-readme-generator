@@ -335,16 +335,15 @@ __metadata:
   linkType: hard
 
 "@myparcel-dev/eslint-config-prettier@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@myparcel-dev/eslint-config-prettier@npm:1.4.0"
+  version: 1.4.1
+  resolution: "@myparcel-dev/eslint-config-prettier@npm:1.4.1"
   dependencies:
-    "@myparcel/prettier-config": ">= 1"
     eslint-config-prettier: 1 - 8
     eslint-plugin-prettier: 1 - 4
   peerDependencies:
     eslint: 7 - 8
     prettier: ">= 2"
-  checksum: a38875b26a5665662867bcfbafced3c97d4862735f6201e1b212c772f3483d096f17cc663044d3838187544370c5070670bcc7aef1527bbcc40c515b94d82fe4
+  checksum: 243ebfd1d2d2fe54dd27ff5d128ce23f0f7b912445dffa681009b6ea68087a59b0a1e1578c6e481f66aa6ca6d241381cc03bf325dd4225f57b588aa184ae409e
   languageName: node
   linkType: hard
 
@@ -403,13 +402,6 @@ __metadata:
     semantic-release: ^19 || ^20 || ^21
   languageName: unknown
   linkType: soft
-
-"@myparcel/prettier-config@npm:>= 1":
-  version: 1.1.0
-  resolution: "@myparcel/prettier-config@npm:1.1.0"
-  checksum: c10890fdd77cd630500b65301dd43fe32ea82a383fdf51d64300744325210e9c4e4b80b6f274c761f7beabb21e128f54ea52955132de8fbe5c5d92aaa3baa3c1
-  languageName: node
-  linkType: hard
 
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
@@ -1831,19 +1823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
-  version: 4.3.4
-  resolution: "debug@npm:4.3.4"
-  dependencies:
-    ms: 2.1.2
-  peerDependenciesMeta:
-    supports-color:
-      optional: true
-  checksum: 3dbad3f94ea64f34431a9cbf0bafb61853eda57bff2880036153438f50fb5a84f27683ba0d8e5426bf41a8c6ff03879488120cf5b3a761e77953169c0600a708
-  languageName: node
-  linkType: hard
-
-"debug@npm:^4.3.1":
+"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.4.3
   resolution: "debug@npm:4.4.3"
   dependencies:
@@ -4057,13 +4037,6 @@ __metadata:
   version: 1.0.1
   resolution: "modify-values@npm:1.0.1"
   checksum: 8296610c608bc97b03c2cf889c6cdf4517e32fa2d836440096374c2209f6b7b3e256c209493a0b32584b9cb32d528e99d0dd19dcd9a14d2d915a312d391cc7e9
-  languageName: node
-  linkType: hard
-
-"ms@npm:2.1.2":
-  version: 2.1.2
-  resolution: "ms@npm:2.1.2"
-  checksum: 673cdb2c3133eb050c745908d8ce632ed2c02d85640e2edb3ace856a2266a813b30c613569bf3354fdf4ea7d1a1494add3bfa95e2713baa27d0c2c71fc44f58f
   languageName: node
   linkType: hard
 
