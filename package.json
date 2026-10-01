@@ -33,7 +33,7 @@
     "@myparcel-dev/eslint-config-node": "^1.4.0",
     "@myparcel-dev/eslint-config-prettier": "^1.4.0",
     "@myparcel-dev/prettier-config": "^2.0.1",
-    "@myparcel-dev/semantic-release-config": "^6.0.0",
+    "@myparcel-dev/semantic-release-config": "^7.0.2",
     "eslint": "^8.38.0",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
