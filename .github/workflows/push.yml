@@ -9,12 +9,12 @@ jobs:
   release:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: myparcelnl/actions/yarn-install@v3
+      - uses: myparcelnl/actions/yarn-install@v5
         with:
           node-version: 18
 
@@ -22,7 +22,7 @@ jobs:
         run: |
           yarn build
 
-      - uses: myparcelnl/actions/semantic-release@v2
+      - uses: myparcelnl/actions/semantic-release@v5
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
         env:
