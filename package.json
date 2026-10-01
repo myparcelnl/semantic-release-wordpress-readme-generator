@@ -35,7 +35,7 @@
     "@myparcel-dev/prettier-config": "^2.0.1",
     "@myparcel-dev/semantic-release-config": "^6.0.0",
     "eslint": "^8.38.0",
-    "husky": "^8.0.1",
+    "husky": "^9.1.7",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
