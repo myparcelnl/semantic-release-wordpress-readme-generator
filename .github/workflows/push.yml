@@ -16,7 +16,7 @@ jobs:
 
       - uses: myparcelnl/actions/yarn-install@v5
         with:
-          node-version: 18
+          node-version: 24
 
       - name: 'Build'
         run: |
