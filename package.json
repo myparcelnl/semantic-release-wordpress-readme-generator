@@ -8,8 +8,7 @@
   },
   "license": "MIT",
   "author": "MyParcel <support@myparcel.nl>",
-  "main": "./lib/semantic-release-wordpress-readme-generator.umd.js",
-  "module": "./lib/semantic-release-wordpress-readme-generator.mjs",
+  "main": "./lib/semantic-release-wordpress-readme-generator.js",
   "files": [
     "lib"
   ],

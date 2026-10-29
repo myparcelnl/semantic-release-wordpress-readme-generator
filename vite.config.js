@@ -6,7 +6,9 @@ module.exports = {
     outDir: 'lib',
     lib: {
       entry: 'src/index.js',
-      name: 'SemanticReleaseWordpressReadme',
+      // A semantic-release plugin runs in Node only, so CommonJS is the only format needed.
+      formats: ['cjs'],
+      fileName: () => 'semantic-release-wordpress-readme-generator.js',
     },
   },
 };
