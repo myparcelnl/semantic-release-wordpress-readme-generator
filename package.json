@@ -33,22 +33,19 @@
     "@myparcel-dev/eslint-config-node": "^1.4.0",
     "@myparcel-dev/eslint-config-prettier": "^1.4.0",
     "@myparcel-dev/prettier-config": "^2.0.1",
-    "@myparcel-dev/semantic-release-config": "^6.0.0",
+    "@myparcel-dev/semantic-release-config": "^7.0.3",
     "eslint": "^8.38.0",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "semantic-release": "^21.0.0",
+    "semantic-release": "^25.0.9",
     "vite": "^4.0.0"
   },
   "peerDependencies": {
     "semantic-release": "^19 || ^20 || ^21"
   },
   "packageManager": "yarn@4.12.0",
-  "resolutions": {
-    "tar": "7.5.11"
-  },
   "publishConfig": {
     "access": "public"
   }
