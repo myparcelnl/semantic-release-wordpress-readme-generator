@@ -3,6 +3,8 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.4](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.4.3...v1.4.4) (2026-11-12)
+
 ## [1.4.3](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.4.2...v1.4.3) (2026-11-12)
 
 ## [1.4.2](https://github.com/myparcelnl/semantic-release-wordpress-readme-generator/compare/v1.4.1...v1.4.2) (2026-10-29)
