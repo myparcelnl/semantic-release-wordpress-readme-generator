@@ -4,7 +4,7 @@
   "description": "Generates a readme.txt for use with WordPress plugin releases in semantic-release",
   "repository": {
     "type": "git",
-    "url": "github:myparcelnl/semantic-release-wordpress-readme-generator"
+    "url": "https://github.com/myparcelnl/semantic-release-wordpress-readme-generator.git"
   },
   "license": "MIT",
   "author": "MyParcel <support@myparcel.nl>",
