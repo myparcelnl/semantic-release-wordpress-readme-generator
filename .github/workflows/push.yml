@@ -8,6 +8,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-22.04
+    permissions:
+      id-token: write # npm trusted publishing (OIDC) exchanges this token for a short-lived npm token
+      contents: read
     steps:
       - uses: actions/checkout@v7
         with:
@@ -26,5 +29,3 @@ jobs:
       - uses: myparcelnl/actions/semantic-release@v6
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
