@@ -176,19 +176,19 @@ importers:
     devDependencies:
       '@myparcel-dev/eslint-config-esnext':
         specifier: ^1.4.0
-        version: 1.4.0(eslint@8.57.1(supports-color@7.2.0))
+        version: 1.4.1(eslint@8.57.1(supports-color@7.2.0))
       '@myparcel-dev/eslint-config-node':
         specifier: ^1.4.0
-        version: 1.4.0(eslint@8.57.1(supports-color@7.2.0))
+        version: 1.4.1(eslint@8.57.1(supports-color@7.2.0))
       '@myparcel-dev/eslint-config-prettier':
         specifier: ^1.4.0
-        version: 1.4.0(eslint@8.57.1(supports-color@7.2.0))(prettier@2.8.7)
+        version: 1.4.1(eslint@8.57.1(supports-color@7.2.0))(prettier@2.8.7)
       '@myparcel-dev/prettier-config':
         specifier: ^2.0.1
-        version: 2.0.1
+        version: 2.0.7
       '@myparcel-dev/semantic-release-config':
         specifier: ^8.1.0
-        version: 8.1.0(@visulima/yaml@1.0.0)(json5@2.2.3)(supports-color@7.2.0)
+        version: 8.1.1(@visulima/yaml@1.0.0)(json5@2.2.3)(supports-color@7.2.0)
       eslint:
         specifier: ^8.38.0
         version: 8.57.1(supports-color@7.2.0)
@@ -445,42 +445,39 @@ packages:
   '@iwavesmedia/semantic-release-composer@1.0.0':
     resolution: {integrity: sha512-DXT1ghphZrfsRvdnNkwRadEbXHxkBwEWhJLlIhEnAlJl61kg1PJB7p0hok48wNVe86glUbElABziWC8YUcvzyw==}
 
-  '@myparcel-dev/eslint-config-es6@1.4.0':
-    resolution: {integrity: sha512-qVM8QG8lYpmLFpi7lMjcL2Peki1FvxD83EOWv/7lDVyINqXnO8+g75mdMkVrHMmQBRh2j1xGPPHL+8GwUGm4zg==}
+  '@myparcel-dev/eslint-config-es6@1.4.1':
+    resolution: {integrity: sha512-j18e3X9kYBFRZwHTa7z5pbLD7QdTOrSYb0+TJNlz1gXxSS3IedMzKywQmHW8SeNPX/cAX/91sZ13yZecWh8ltA==}
     peerDependencies:
       eslint: 7 - 8
 
-  '@myparcel-dev/eslint-config-esnext@1.4.0':
-    resolution: {integrity: sha512-1hlq8ENBVKIbvlRgVusYYPC0teoJ5JE/y88Xj3LqJx4CIE7M5RBZGyeZ1vcQzSIX71KJMIQ05M8H+D2d4f1/kQ==}
+  '@myparcel-dev/eslint-config-esnext@1.4.1':
+    resolution: {integrity: sha512-pBRDEY3YMNVtrI/mMveb947wXwzvK01qIXMAyYKc1wBqnv4L1uic5eyayb6b1G1x2HFCtd+2ZVlMb0Rl9JsawQ==}
     peerDependencies:
       eslint: 7 - 8
 
-  '@myparcel-dev/eslint-config-node@1.4.0':
-    resolution: {integrity: sha512-UADV4QUlkCbV9/97v2wRL7gPc9MtUlm+YD1zl4vmL0MNXuUnamamiCUx1CeSqqbJGTs5zDWsauhnaAHbealWYg==}
+  '@myparcel-dev/eslint-config-node@1.4.1':
+    resolution: {integrity: sha512-7ZXjoaVPz6tefQXAZ4E1L/4rc8d2Z9JF12QUi2vG3kq9bfFVqxOAa1XUBYu0+EAe4qh2qVmVWxOslFK9cSadig==}
     peerDependencies:
       eslint: 7 - 8
 
-  '@myparcel-dev/eslint-config-prettier@1.4.0':
-    resolution: {integrity: sha512-GU4SYGsBIE3US0sfA1N8ZIlgAZE9QaLU7HuaL2D2rCvaN15Aqu6IKzPsmywq2xU92qcjAs5dI/41/WhYGO5KKA==}
+  '@myparcel-dev/eslint-config-prettier@1.4.1':
+    resolution: {integrity: sha512-HniDl+0ggRoBa95f0ERg/c4PO9fRngmwzQjKNUzOaj+VghTAJuGhUmEXt4RUqfEHfYRMVW2AhqMo4OtyqToKfg==}
     peerDependencies:
       eslint: 7 - 8
       prettier: '>= 2'
 
-  '@myparcel-dev/eslint-config@1.4.0':
-    resolution: {integrity: sha512-XfhmyB/scRLnXqpjDFRINPubldccChackaz+nFIpj+Uco8MQkBDjmUV6AP4wwBHKzGT0O4XM0FELk8ubrEvSow==}
+  '@myparcel-dev/eslint-config@1.4.1':
+    resolution: {integrity: sha512-kNi8zFxMGP9rj7kANcXrS2qprXdSZgdpdDLuf/g6ofN9wBRUEQn7d2zS4WXx5ehiLja0mKuFyAn4bgatjpNDaw==}
     peerDependencies:
       eslint: 7 - 8
 
-  '@myparcel-dev/prettier-config@2.0.1':
-    resolution: {integrity: sha512-DdjtbGOdWnDDomnc+4mnhHi7ZPVZ+vJw6o5JibMn79MpNtER9gDVeiXOnO/sV7EzmIW6u5CDTdrrj62K5vBFug==}
+  '@myparcel-dev/prettier-config@2.0.7':
+    resolution: {integrity: sha512-TOelcmxQ896kTnRtoNZ6PkKSctsB+FlzRjVeIx3ktEd9YAf5rb9Wt4Uay+Kkgy7VWL3WFyCrMDHKxisMXIcPWQ==}
+    engines: {node: '>=24.21'}
 
-  '@myparcel-dev/semantic-release-config@8.1.0':
-    resolution: {integrity: sha512-ZS7dtyH27NjfGiQF5Q7ZLgrRy/n00n9PUXAdwuAF6NNRyecdCBCJDVj4PBN/iuYauJvYzl4sVE7rkGZng+F3qA==}
-    engines: {node: ^24.21}
-
-  '@myparcel/prettier-config@1.1.0':
-    resolution: {integrity: sha512-qvVz0iE4mj6rQplYkpOCmcaYftDzKC3I7w/lbqnHJfMXTjetK69aHe+SwELBJq55CBJ+3H1l7uR2TDgn+a7INQ==}
-    deprecated: 'DEPRECATED: Will be moved to @myparcel-dev/prettier-config'
+  '@myparcel-dev/semantic-release-config@8.1.1':
+    resolution: {integrity: sha512-T0HXlvlwpOaDaGNY7A7EyUVUe2eL0HZu8ALBxsbjAV2e8HuHmCIEyR17zUh5St+saOWJ20nHoyC5fnOvBrdDTQ==}
+    engines: {node: '>=24.21'}
 
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
     resolution: {integrity: sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==}
@@ -2847,36 +2844,35 @@ snapshots:
     dependencies:
       '@semantic-release/error': 2.2.0
 
-  '@myparcel-dev/eslint-config-es6@1.4.0(eslint@8.57.1(supports-color@7.2.0))':
+  '@myparcel-dev/eslint-config-es6@1.4.1(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:
-      '@myparcel-dev/eslint-config': 1.4.0(eslint@8.57.1(supports-color@7.2.0))
+      '@myparcel-dev/eslint-config': 1.4.1(eslint@8.57.1(supports-color@7.2.0))
       eslint: 8.57.1(supports-color@7.2.0)
 
-  '@myparcel-dev/eslint-config-esnext@1.4.0(eslint@8.57.1(supports-color@7.2.0))':
+  '@myparcel-dev/eslint-config-esnext@1.4.1(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:
-      '@myparcel-dev/eslint-config-es6': 1.4.0(eslint@8.57.1(supports-color@7.2.0))
+      '@myparcel-dev/eslint-config-es6': 1.4.1(eslint@8.57.1(supports-color@7.2.0))
       eslint: 8.57.1(supports-color@7.2.0)
 
-  '@myparcel-dev/eslint-config-node@1.4.0(eslint@8.57.1(supports-color@7.2.0))':
+  '@myparcel-dev/eslint-config-node@1.4.1(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:
-      '@myparcel-dev/eslint-config': 1.4.0(eslint@8.57.1(supports-color@7.2.0))
+      '@myparcel-dev/eslint-config': 1.4.1(eslint@8.57.1(supports-color@7.2.0))
       eslint: 8.57.1(supports-color@7.2.0)
 
-  '@myparcel-dev/eslint-config-prettier@1.4.0(eslint@8.57.1(supports-color@7.2.0))(prettier@2.8.7)':
+  '@myparcel-dev/eslint-config-prettier@1.4.1(eslint@8.57.1(supports-color@7.2.0))(prettier@2.8.7)':
     dependencies:
-      '@myparcel/prettier-config': 1.1.0
       eslint: 8.57.1(supports-color@7.2.0)
       eslint-config-prettier: 8.10.2(eslint@8.57.1(supports-color@7.2.0))
       eslint-plugin-prettier: 4.2.5(eslint-config-prettier@8.10.2(eslint@8.57.1(supports-color@7.2.0)))(eslint@8.57.1(supports-color@7.2.0))(prettier@2.8.7)
       prettier: 2.8.7
 
-  '@myparcel-dev/eslint-config@1.4.0(eslint@8.57.1(supports-color@7.2.0))':
+  '@myparcel-dev/eslint-config@1.4.1(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:
       eslint: 8.57.1(supports-color@7.2.0)
 
-  '@myparcel-dev/prettier-config@2.0.1': {}
+  '@myparcel-dev/prettier-config@2.0.7': {}
 
-  '@myparcel-dev/semantic-release-config@8.1.0(@visulima/yaml@1.0.0)(json5@2.2.3)(supports-color@7.2.0)':
+  '@myparcel-dev/semantic-release-config@8.1.1(@visulima/yaml@1.0.0)(json5@2.2.3)(supports-color@7.2.0)':
     dependencies:
       '@anolilab/semantic-release-pnpm': 8.1.37(@visulima/yaml@1.0.0)(json5@2.2.3)(supports-color@7.2.0)
       '@iwavesmedia/semantic-release-composer': 1.0.0
@@ -2896,8 +2892,6 @@ snapshots:
       - smol-toml
       - supports-color
       - typescript
-
-  '@myparcel/prettier-config@1.1.0': {}
 
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
     optional: true
